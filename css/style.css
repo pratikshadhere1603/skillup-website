@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ::selection {
+    background-color: #0953ad;
+    color: white;
+  }
+  body {
+    font-size: 18px;
+    /* font-family: 'Montserrat'; */
+  }
+  /* overriding of bootstrap classes */
+  /* button */
+  .btn {
+    width: 160px;
+    font-weight: 500;
+  }
+  .btn-brand {
+    color: #fff;
+    background-color: rgba(17, 188, 128);
+    border-color: rgba(17, 188, 128, 0.8);
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition: 0.4s ease;
+  }
+  .btn-brand:hover {
+    color: rgb(255, 255, 255, 0.8);
+    background-color: rgba(17, 188, 128, 0.8);
+    border-color: rgba(17, 188, 128);
+    transition: 0.4s ease;
+  }
+  .btn-secondary,
+  .btn-secondary:active,
+  .btn-secondary:hover,
+  .btn-check:focus + .btn-secondary,
+  .btn-secondary:focus {
+    background-color: #fff;
+    color: rgba(17, 188, 128);
+    border-color: rgba(17, 188, 128);
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition: 0.4s ease;
+  }
+  .btn-secondary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(17, 188, 128);
+    border-color: rgba(17, 188, 128, 0.8);
+  }
+  /* navbar */
+  .navbar {
+    font-size: 18px;
+    background-color: #0953ad !important;
+  }
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: #12bb80 !important;
+  }
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .bg-primary {
+    background-color: rgba(215, 215, 215, 255) !important;
+  }
+  .bg-secondary {
+    background-color: rgba(0, 47, 125, 255) !important;
+  }
+  
+  /* slider */
+  .slide {
+    height: 600px;
+  }
+  .corousel_content.slider_1 {
+    position: absolute;
+    z-index: 200;
+    top: 18%;
+    left: 12%;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .corousel_content.slider_3 {
+    position: absolute;
+    z-index: 200;
+    top: 25%;
+    left: 14%;
+    color: rgba(12, 133, 95, 0.884);
+  }
+  .corousel_content.slider_2 {
+    position: absolute;
+    z-index: 200;
+    top: 28%;
+    right: 9%;
+    color: rgba(9, 82, 174, 0.8);
+  }
+  
+  .corousel_heading {
+    font-size: 64px;
+    line-height: 62px;
+    text-shadow: 4px 1px 3px #2bd8a0;
+  }
+  .carousel-item img {
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  /* about us */
+  #about-us {
+    padding: 0;
+  }
+  .about_us {
+    padding: 100px 50px;
+    min-height: 300px;
+    position: relative;
+  }
+  .about_us .header_icon {
+    background-color: #fff;
+    margin-top: -135px;
+    height: 75px;
+    z-index: 250;
+    width: 100%;
+    position: absolute;
+  }
+  .about_us .header_icon img {
+    height: 60px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(80%);
+  }
+  .about_content h3,
+  .solution h3,
+  .contact_us h3 {
+    color: rgba(9, 82, 174, 255);
+    font-size: 40px;
+    font-weight: 700;
+  }
+  /* solution */
+  section {
+    padding: 50px 0;
+  }
+  .btn.learn_more {
+    font-weight: 500;
+    color: #12bb80;
+    font-size: 18px;
+    width: 200px !important;
+  }
+  .learn_more img {
+      width: 36px;
+  }
+  .learn_more img:hover {
+      opacity: 0.7;
+      width: 40px !important;
+      transition: 0.3s ease;
+  }
+  
+  .solution_content {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0 80px;
+    border: 5px solid #12bb80;
+  }
+  
+  .solution_icon {
+    position: absolute;
+    top: 0px;
+    font-size: 25px;
+    left: 10px;
+    padding: 0.5rem;
+    background-color: #12bb80;
+    border-radius: 100%;
+  }
+  .solution_content p {
+    text-align: left;
+  }
+  .solution h5 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  /* portfolio */
+  .portfolio h3 {
+    color: #12bb80;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .portfolio p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* reviews */
+  .reviews {
+    padding: 0 35px;
+  }
+  .reviews h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0953ad;
+  }
+  .reviews_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .reviews_img img:hover {
+    color: #0953ad;
+    opacity: 0.4;
+    transition: 0.4s ease;
+  }
+  
+  /* footer */
+  #footer {
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 30px;
+  }
+  .footer h6 {
+    color: #12bb80;
+    font-size: 20px;
+  }
+  .footer li {
+    list-style: none;
+  }
+  .footer .social_icon {
+    color: #0953ad;
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin-right: 2px;
+  }
+  .footer .social_icon:hover {
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+  }
+  
+  /* media query */
+  
+  @media screen and (max-width: 991px) {
+    .corousel_heading {
+      font-size: 50px;
+    }
+    .solution h5 {
+      font-size: 25px;
+    }
+    .about_us .header_icon {
+      margin-top: -145px;
+      height: auto;
+    }
+  }
+  
